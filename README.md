@@ -13,10 +13,11 @@ mongodb-tank-auth
 </ol>
 <h2>Installation:</h2>
 <ol>
-<li>Download the application flider extract it copy all the files in the flider into your CI projects.</li>
+<li>Download the application folder extract it copy all the files in the folder into your CI projects.</li>
 <li>Add the MongoDB connection details in “application/config/mongodb.php”. </li>
-<li>I have auto loaded the MongoDB driver in CI “application/config/autlioad.php”. </li>
+<li>I have auto loaded the MongoDB driver in CI “application/config/autoload.php”. </li>
 <li>Add SMTP settings in “application/config/tank_auth.php” there are other config settings as well you can set those depends on you requirement. </li>
+<li>Create folder name "captcha" in your project root.</li>
 <li>That’s it.
 </ol>
 
