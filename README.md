@@ -17,6 +17,7 @@ mongodb-tank-auth
 <li>Add the MongoDB connection details in “application/config/mongodb.php”. </li>
 <li>I have auto loaded the MongoDB driver in CI “application/config/autoload.php”. </li>
 <li>Add SMTP settings in “application/config/tank_auth.php” there are other config settings as well you can set those depends on you requirement. </li>
+<li>Add encryption key in CI "application/config/config.php" file otherwise it will through an error</li>
 <li>Create folder name "captcha" in your project root.</li>
 <li>That’s it.
 </ol>
